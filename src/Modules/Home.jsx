@@ -28,7 +28,7 @@ const Home = ({history}) => {
                 </div>
                 <div>
                   <div className="d-flex mt-4">
-                    <Link target="_blank" rel="noopener noreferrer" to="https://github.com/Rarewolf626" className="color-customBlue p-0 mr-3"><FontAwesomeIcon size="2x" icon={faGithubSquare} /></Link>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Rarewolf626" className="color-customBlue p-0 mr-3"><FontAwesomeIcon size="2x" icon={faGithubSquare} /></a>
                     <Link target="_blank" rel="noopener noreferrer" to={ResumePDF} className="color-customBlue p-0 mr-3"><FontAwesomeIcon size="2x" icon={faFilePdf} /></Link>
                     <Button className="bg-customBlue font-weight-bold shadow border-0" onClick={() => history.push('/contact')}>Contact Me</Button>
                   </div><br />
